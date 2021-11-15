@@ -1,0 +1,5 @@
+Jacob Park jdp231
+Chris Shen cs1448
+
+In this project, the main testing strategy was to use a text file called foo.txt with some text, a directory called bar. The directory contained another file called foo2.txt with some more text. I sent these two files (bar and foo) into the program to read the text files and put them into a LL of structs. These structs held data containing the list of files, the list of words within a given file. The correctness of the program was validated using print statements to confirm that the threads began consuming/producing, enqueued the correct files, received the correct filed, closed the queue. Lastly, I also made the program print out the list of words and their frequencies in each file. These were all used to debug and make sure the output was correct (I left everything used to debug in comments so you can see). 
+Lastly, I should note that our program is unable to check for the optional arguments, as we just assumed the base case (default values) for each possible optional argument. 
